@@ -34,7 +34,12 @@
 			var mapOptions = {
 				zoom: this.settings.default_zoom,
 				center: center,
-				mapTypeId: google.maps.MapTypeId.ROADMAP
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+                mapTypeControl: false,          
+                zoomControl: false,
+                scaleControl: false,
+                streetViewControl: false,
+                fullscreenControl: false
 			};
 			
 			var $this = this;
